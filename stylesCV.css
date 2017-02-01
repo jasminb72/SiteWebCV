@@ -1,0 +1,67 @@
+header {
+    background-color: #5c93b1;
+    display: flex;
+}
+
+img {
+    padding: 10px;
+}
+
+.div_image {
+    width: 25%;
+    margin-right: 5%;
+}
+
+.div_image img {
+    width: 100%;
+}
+
+header .div_texte{
+    display:flex;
+    width: 75%;
+    flex-direction: column;
+}
+
+header .div_texte_espace{
+    height:10%;
+}
+
+header .div_texte_texte{
+    height:90%;
+    display: flex;
+}
+.div_nomPlusProfession {
+    width: 40%;
+    margin-left: 5%;
+    margin:0px;
+    padding:0px;
+}
+
+.div_infos_personne {    
+    width: 55%;
+    display: flex;
+    justify-content: flex-end;
+    }
+
+.div_infos_personne p{
+    width:90%;
+    margin-right: 10%;
+    margin:0px;
+    padding:0px;
+    }
+
+
+.police {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+}
+
+.nomCV {
+    font-size: 52px;
+}
+
+#bar {
+    position: absolute;
+}

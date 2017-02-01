@@ -1,0 +1,35 @@
+.main {
+    width: 450px;
+    height: 600px;
+    /*display: table;*/
+    background-color: aquamarine;
+    padding: 10px;
+    display:flex;
+}
+
+.main>div {
+    /*display: table-cell;*/
+    width: 150px;
+    height: 150px;
+    align-content: stretch;
+    
+}
+
+@media (max-width:600px){
+.main>div {
+    /*display: table-cell;*/
+    width: 10px;
+    height: 10px;
+    align-content: stretch;
+    
+}
+    
+}
+
+.section {
+    background-color: darkgray;
+}
+
+.aside {
+    background-color: gainsboro;
+}
